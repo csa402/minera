@@ -159,26 +159,15 @@
 										<h3 class="box-title">Donations</h3>
 									</div>
 									<div class="box-body text-center">
-										<?php if (!$adsFree) : ?>
-											<p>If you like Minera, please consider a donation to support it. To remove all the ads forever (for this system) please click the button below and complete the donation (cost: 0.01 <i class="fa fa-btc"></i> for one system for life).</p>
-											<?php if ($env === 'development') : ?>
-												<p><a class="coinbase-button" data-env="sandbox" data-code="0897e9510eba42b39d4a4a3e6a4742df" data-button-style="custom_large" data-button-text="Remove Ads" data-width="185" data-heigth="60" href="https://sandbox.coinbase.com/checkouts/0897e9510eba42b39d4a4a3e6a4742df" data-custom="<?php echo $mineraSystemId.'||removeads||'.site_url('app/dashboard') ?>">Remove Ads</a></p>
-											<?php else : ?>
-												<p><a class="coinbase-button" data-code="ee38d16e2e37e5f148153a8817d5dc27" data-button-style="custom_large" data-button-text="Remove Ads" data-width="185" data-heigth="60" href="https://sandbox.coinbase.com/checkouts/ee38d16e2e37e5f148153a8817d5dc27" data-custom="<?php echo $mineraSystemId.'||removeads||'.site_url('app/dashboard') ?>">Remove Ads</a></p>
-											<?php endif; ?>
-										<?php else : ?>
-											<p>You are ads-free, Thanks!</p>
-			                            	<a class="coinbase-button" data-code="01ce206aaaf1a8659b07233d9705b9e8" data-button-style="custom_large" data-width="210" data-heigth="60" href="https://www.coinbase.com/checkouts/01ce206aaaf1a8659b07233d9705b9e8">Donate Bitcoins</a>
-										<?php endif; ?>
-										<p><strong>Bitcoin</strong>: <code><a href="bitcoin:1AmREReHNLec9EaW7gLRdW31LNSDA9SGR1" target="_blank">1AmREReHNLec9EaW7gLRdW31LNSDA9SGR1</a></code></p>
-										<p><strong>Litecoin</strong>: <code><a href="litecoin:LLPmAT9gDwmiSdqwWEZu6mpUDmrNAnYBdC" target="_blank">LLPmAT9gDwmiSdqwWEZu6mpUDmrNAnYBdC</a></code></p>
-										<p><strong>Dogecoin</strong>: <code><a href="dogecoin:DLAHwNxfUTUcePewbkvwvAouny19mcosA7" target="_blank">DLAHwNxfUTUcePewbkvwvAouny19mcosA7</a></code></p>
+										
+											<p>Fuckin' ads were removed !</p>
+			                            					<p></p>
+											<p>If you want I continue to manage theses cleaning patches, you can give me some coins...</p>
+										<p><strong>Bitcoin</strong>: <code><a href="bitcoin:19D38nSQDvohjoQsjCxEzTVgnur55A1Nse" target="_blank">19D38nSQDvohjoQsjCxEzTVgnur55A1Nse</a></code></p>
+										<p><strong>Litecoin</strong>: <code><a href="litecoin:LVBkphAosWQchMujg5kqrbwL9GiHoLJCmi" target="_blank">LVBkphAosWQchMujg5kqrbwL9GiHoLJCmi</a></code></p>
+										<p><strong>Dogecoin</strong>: <code><a href="dogecoin:DHjvCvqH999V43e1G732QrYMKw9SjahvBN" target="_blank">DHjvCvqH999V43e1G732QrYMKw9SjahvBN</a></code></p>
 									</div><!-- /.box-body -->
-									<?php if (!$adsFree) : ?>
-									<div class="box-footer text-center" style="clear:both">
-										<?php echo $ads['234x60'] ?>
-								    </div>
-								    <?php endif; ?>
+									
 								</div>                            
 							</section><!-- End right section -->
 
@@ -523,7 +512,7 @@
 									
 								</div><!-- sortable -->
 								<div>
-									<button class="btn btn-default btn-sm add-pool-row" name="add-row" value="1"><i class="fa fa-plus"></i> Add row</button><?php if (!$donationPool) : ?>&nbsp;<button class="btn btn-success btn-sm add-donation-pool-row" name="add-row" value="1"><i class="fa fa-gift"></i> Add donation pool</button><?php endif; ?>
+									<button class="btn btn-default btn-sm add-pool-row" name="add-row" value="1"><i class="fa fa-plus"></i> Add row</button>
 								</div>
                             </div>
                         </div>
